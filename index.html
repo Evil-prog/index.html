@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            background-color: #131921;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        
+        .header input[type="search"] {
+            padding: 0.5em;
+            width: 50%;
+        }
+        
+        .header button[type="submit"] {
+            background-color: #febd69;
+            border: none;
+            padding: 0.5em 1em;
+        }
+        
+        .nav {
+            background-color: #232f3e;
+            color: #fff;
+            padding: 0.5em;
+            text-align: left;
+        }
+        
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        .hero {
+            background-image: url src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG24/Smart_Watches/MAY_ART25/Lead-up_SW_GW-PC-3000x1200.CB796684084.jpg";
+            background-size: cover;
+            background-position: center;
+            height: 20em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2em;
+        }
+        
+        .product {
+            margin: 2em;
+            text-align: center;
+            width: 20em;
+        }
+        
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .footer {
+            background-color: #131921;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG24/Smart_Watches/MAY_ART25/Lead-up_SW_GW-PC-3000x1200.CB796684084.jpg"
+        <input type="search" placeholder="Search Amazon">
+        <button type="submit">Search</button>
+        <a href="#" style="color: #fff; margin-left: 20px;">Account & Lists</a>
+        <a href="#" style="color: #fff; margin-left: 20px;">Returns & Orders</a>
+        <a href="#" style="color: #fff; margin-left: 20px;">Cart</a>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li>Today's Deals</li>
+            <li>Customer Service</li>
+            <li>Registry</li>
+            <li>Gift Cards</li>
+            <li>Sell</li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h1>Welcome to Amazon</h1>
+    </section>
+    <section class="products">
+        <div class="product">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79.SY116_CB667322346.jpg" alt="Air conditinor">
+            <h2>Product 1</h2>
+            <p>$19.99</p>
+        </div>
+        <div class="product">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW.SY116_CB667322346.jpg" alt="refrigerator">
+            <h2>Product 2</h2>
+            <p>$29.99</p>
+        </div>
+        <div class="product">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm.SY116_CB667322346.jpg" alt="Washing machine">
+            <h2>Product 3</h2>
+            <p>$39.99</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 Amazon</p>
+    </footer>
+</body>
+</html>
